@@ -9,7 +9,6 @@
 
     $page = Req::GetPage();
 
-    
     switch ($page) {
         case 'users':
             Controller\UserController::Main($page);
